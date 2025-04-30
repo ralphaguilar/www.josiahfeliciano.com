@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="minimal-header">
+    <div class="header-container">
+      <div class="logo">Josiah Feliciano</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#films">Films</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="intro-section" id="home">
+    <div class="intro-container">
+      <img src="img/josiah2.jpg" alt="Josiah Kyle Feliciano" class="intro-image" />
+      <div class="intro-text">
+        <h2>Hello, I'm</h2>
+        <h1>Josiah Kyle Feliciano</h1>
+        <h3>Film Producer</h3>
+
+        <div class="intro-buttons">
+          <a href="resume.pdf" class="btn" download>Download CV</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+
+        <div class="intro-socials">
+          <a href="https://www.instagram.com/kylefeliciano42" target="_blank">
+            <img src="img/instagram.png" alt="Instagram" />
+          </a>
+          <a href="https://www.linkedin.com/in/josiah-kyle-feliciano-b2a435343/" target="_blank">
+            <img src="img/linkedin.png" alt="LinkedIn" />
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <div class="main-content" id="about">
+    <img src="img/josiah.png" alt="Your Photo" />
+    <div class="about-text">
+      <h1>Josiah Kyle Feliciano - Film Producer</h1>
+      <h2>About me:</h2>
+      <p>Hi, I am Josiah Kyle Feliciano–currently a senior at San Diego State, majoring in Film, Television, and Media Arts with an emphasis in production. I am projected to graduate in Spring 2025, and I have an insatiable passion for producing movies and alleviating colleagues’ workloads.      </p>
+      <p>Currently, I am interning for the MCIAT studio in San Diego, where I handle and manage the company’s library system while also tending to other clerical tasks. In terms of school, I have produced two short films, one of which was selected at the SDSU Emerging Filmmakers Showcase (currently, I am producing two more). I also have experience with producing documentaries; I co-produced two while producing the aforementioned short films. All in all, I am a strong project manager who excels at multitasking and meeting deadlines. </p>
+      <p>My most recent film, Under Seventh Heaven, is an AAPI romance with LGBTQIA+ themes. The director, Shane Bennett, and I look forward to submitting it to festivals this year.       </p>
+    </div>
+  </div>
+
+  <section id="films">
+    <h1 class="section-title">Film(s)</h1>
+    <div class="main-content">
+      <img src="img/movietitle.png" alt="Under Seventh Heaven Poster" />
+      <div class="about-text">
+        <h2>Under Seventh Heaven</h2>
+        <p>
+          A touching AAPI romance exploring LGBTQIA+ themes, <em>Under Seventh Heaven</em> delves into love, identity, and acceptance.
+          Produced by Josiah Kyle Feliciano and directed by Shane Bennett, the film is set for submission to multiple festivals this year.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <h1 class="section-title">Contact Me</h1>
+    <form class="contact-form" action="#" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="first-name">First Name*</label>
+          <input type="text" id="first-name" name="first-name" required />
+        </div>
+        <div class="form-group">
+          <label for="last-name">Last Name*</label>
+          <input type="text" id="last-name" name="last-name" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address*</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject*</label>
+        <input type="text" id="subject" name="subject" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message*</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <a href="https://www.instagram.com/kylefeliciano42" target="_blank" aria-label="Instagram">
+        <img src="img/instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://www.linkedin.com/in/josiah-kyle-feliciano-b2a435343/">
+        <img src="img/linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
