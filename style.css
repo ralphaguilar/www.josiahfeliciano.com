@@ -72,19 +72,24 @@ body {
 
 .main-content {
   display: flex;
-  align-items: center; /* <-- This centers items vertically */
-  padding: 40px;
+  align-items: flex-start;
+  gap: 40px;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 40px;
+  padding: 40px 20px;
   flex-wrap: wrap;
 }
 
-.main-content img {
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-stack img {
   width: 300px;
   height: auto;
   border-radius: 10px;
-  margin-right: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -229,8 +234,8 @@ footer {
 }
 
 .intro-image {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
